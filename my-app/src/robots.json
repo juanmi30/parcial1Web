@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "nombre": "Pedrito",
+      "modelo": "PR-001",
+      "empresaFabricante": "Robotico Corp",
+      "añoFabricacion": 2023,
+      "capacidadProcesamiento": "2.5 GHz",
+      "humor": "Como un perrito pequeño, siempre buscando atención y moviendo su 'cola' robótica",
+      "imagen": "https://raw.githubusercontent.com/isis3710-uniandes/202410_S1_Parcial1_Back/master/images/robot1.png"
+    },
+    {
+      "id": 2,
+      "nombre": "IronChef",
+      "modelo": "IC-3000",
+      "empresaFabricante": "RoboCocina Inc.",
+      "añoFabricacion": 2022,
+      "capacidadProcesamiento": "3.0 GHz",
+      "humor": "Ama cocinar y siempre tiene una receta nueva para probar.",
+      "imagen": "https://raw.githubusercontent.com/isis3710-uniandes/202410_S1_Parcial1_Back/master/images/robot2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Chipisita",
+      "modelo": "LT-007",
+      "empresaFabricante": "SparkBots Ltd",
+      "añoFabricacion": 2021,
+      "capacidadProcesamiento": "1.8 GHz",
+      "humor": "Pequeña y rápida, siempre lista para resolver problemas con una sonrisa.",
+      "imagen": "https://raw.githubusercontent.com/isis3710-uniandes/202410_S1_Parcial1_Back/master/images/robot3.png"
+    }
+  ]
+  
