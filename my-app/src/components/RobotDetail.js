@@ -1,7 +1,10 @@
 import React from "react";
 import { Card, Button, Container } from "react-bootstrap";
+import { useIntl } from "react-intl";
 
 function RobotDetail({ robot, onClose }) {
+
+    const intl = useIntl();
     if (!robot) return null;
 
     return (
@@ -17,9 +20,9 @@ function RobotDetail({ robot, onClose }) {
                     />
                     <Card.Title className="text-center">{robot.nombre}</Card.Title>
                     <Card.Text>
-                        <strong>→ Año de Fabricación:</strong> {robot.añoFabricacion} <br />
-                        <strong>→ Capacidad de Procesamiento:</strong> {robot.capacidadProcesamiento} <br />
-                        <strong>→ Humor:</strong> {robot.humor}
+                        <strong>→ {intl.formatMessage({ id: "fabricationYear" })}:</strong> {robot.añoFabricacion} <br />
+                        <strong>→ {intl.formatMessage({ id: "processingCapacity" })}:</strong> {robot.capacidadProcesamiento} <br />
+                        <strong>→ {intl.formatMessage({ id: "additionalFeatures" })}:</strong> {robot.humor}
                     </Card.Text>
                     <Button variant="danger" onClick={onClose}>Cerrar</Button>
                 </Card.Body>
